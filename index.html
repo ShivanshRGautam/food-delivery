@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissfull Bites - Resturant</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+      <div class="heading">
+        <p class="animate-up">For a limited time offer, take 20% off any new subcription plan. Use code at checkout: FOODIE20</p>
+        <p class="animate-up">Expires July 30,2024 <a class="offer" href="#">OFFER TERMS</a></p>
+      </div>
+      <div id = "nav">
+        <img src="img/Logo.PNG" alt="Brand-logo" >
+        <div class="link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#contact-us">Contact us</a>
+        </div>
+        <div id="icon">
+            <div class="i1">
+            <i class="ri-shopping-bag-line"></i>
+           </div>
+           <div class="i2">
+            <i class="ri-user-3-fill"></i>
+        </div>
+        </div>
+        </div> 
+    </header>
+    <hr>
+    <div id="home">
+        <h1 class="h-primary">Welcome to Blissfull Bites</h1><br>
+        <p >For enjoying delcious cusines and dishes visit to: <a href="#">Blissfull Bites</a></p>
+    </div>
+     <div id="about">
+        <div class="c1">
+        <div class = "p1">
+            <h1 class = "text1">Discover </h1>
+            <p>Our Store</p>
+        </div>
+
+        <div class = "p2">
+            <p>Welcome to Blissful Bites, where culinary delight meets exceptional <br>
+               service! At Blissful Bites, we believe that dining is more than just <br>
+               a meal—it's an experience. Founded with a passion for gastronomy and <br>
+               a commitment to excellence, our restaurant has quickly become a beloved <br>
+               destination for food enthusiasts and casual diners alike. </p>
+        </div>
+        <div class="p3">
+            <a href="#">About us</a>
+        </div>
+    </div>
+    <div class="c2">
+        <img src="../img/img_1.JPG" alt="image">
+    </div>
+   </div>
+ 
+   <section id="products">
+         <div id = "abc">
+            <h1 class = "text1">Discover  </h1>
+            <p>Our Specialities</p>
+         </div>
+         <div class="product-item">
+        <img src="../img/dish1.JPG" alt="Product 1">
+        <h3>Curry</h3>
+        <p class="price">Rs 99.00</p>
+        <p class="description">Cobination of potato and tomato tossed with coriander, garlic
+            and onion along with spices.
+        </p>
+        <br>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+    <div class="product-item">
+        <img src="../img/dish5.JPG" alt="Product 2">
+        <h3>Dosha</h3>
+        <p class="price">Rs 199.00</p>
+        <p class="description">South Indian thin crepe made from a fermented batter of ground white gram and rice. It’s usually served hot with chutney and sambar—a lentil-based vegetable stew
+        </p>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+    <div class="product-item">
+        <img src="../img/dish1.JPG" alt="Product 1">
+        <h3>Pizza</h3>
+        <p class="price">Rs 199.00</p>
+        <p class="description">Pizza consists of a flattened disk of bread dough topped with various ingredients. These toppings often include olive oil, oregano, tomato sauce, olives, mozzarella.
+        </p>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+    <div class="product-item">
+        <img src="../img/dish2.JPG" alt="Product 1">
+        <h3>Shahi Paneer</h3>
+        <p class="price">Rs 199.00</p>
+        <p class="description">Shahi Paneer, also known as Mughlai Paneer, is a succulent Indian dish that celebrates the richness of flavors.
+        </p>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+    <div class="product-item">
+        <img src="../img/dish3.JPG" alt="Product 1">
+        <h3>Noodles</h3>
+        <p class="price">Rs 299.00</p>
+        <p class="description">Noodles are thin, long strips of pasta or similar flour paste. They’re often distinguished from regular pasta by their ribbon-like shape.
+        </p>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+    <div class="product-item">
+        <img src="../img/dish4.JPG" alt="Product 1">
+        <h3>Dal Makhni</h3>
+        <p class="price">Rs 99.00</p>
+        <p class="description">Dal Makhani is a classic North Indian dish that celebrates the richness of flavors
+        </p>
+        <br>
+        <button class="btn" type="submit">Add to Cart</button>
+    </div>
+   
+</section>
+   <br>
+  
+
+   <br>
+   <div id="reservation">
+    <div class="res1">
+        <h1 class="res2">Booking</h1>
+        <p class="res3"> Reserve a Table</p>
+    </div>
+     <div id="form">
+        <form name="Booking">
+            <div class="half">
+                <label for="people">How Many People</label><br><br>
+                <select name="People" id="people">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4+">4+ People</option>
+                </select><br><br>
+            </div>
+            <div class="half">
+                <label for="name">Name</label><br><br>
+                <input type="text" id="name" name="data[name]" placeholder="Your full name"><br>
+            </div>
+            <div class="half">
+                <label for="date">Date</label><br><br>
+                <input type="date" id="date" name="data[date]"><br><br>
+            </div>
+            <div class="half">
+                <label for="email">Email</label><br><br>
+                <input type="email" id="email" name="data[email]" placeholder="Your email address">
+            </div>
+            <div class="half">
+                <label for="time">Time</label><br><br>
+                <input type="time" id="time" name="data[time]"><br><br>
+            </div>
+            <div class="half">
+                <label for="phone">Phone</label><br><br>
+                <input type="tel" id="phone" name="data[phone]" placeholder="Your phone">
+            </div>
+            <button class="btn" type="submit">Submit Now</button>
+        </form>
+    </div>
+    <div id="contact-us">
+    <div id="contact">
+        <div class="c1">
+        <div class = "p1">
+            <h1 class = "text1">Contact </h1>
+            <p>LET'S CHAT</p>
+        </div>
+
+        <div class = "p2">
+            <p>Welcome to Blissful Bites, where culinary delight meets exceptional <br>
+               service! At Blissful Bites, we believe that dining is more than just <br>
+               a meal—it's an experience. Founded with a passion for gastronomy and <br>
+               a commitment to excellence, our restaurant has quickly become a beloved <br>
+               destination for food enthusiasts and casual diners alike. </p>
+        </div>
+    </div>
+    <div id="form1">
+        <form name="Message-us">      
+            <div class="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="Name" placeholder="Your full name"><br>
+            </div>
+            <div class="">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" placeholder="Your email address">
+            </div>
+            <div class="">
+                <label for="textarea">Your Message</label><br>
+                <textarea class="text-area" name="Message" rows="6" cols="20"></textarea>
+            </div>
+           
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+    
+    <footer>
+        <div id = "foot">
+         <div class = "heading-foot">
+            <div >
+                <h1 class="bliss">Blissfull Bites</h1>
+            </div>
+            <div >
+                <h1>Feel Hunger! Order Your Liked Food</h1>
+            </div>
+            <div >
+                <button class="btn" type="Order Now">Order Now</button>
+            </div>
+         </div>
+         <hr>
+         <br>
+         <div class="container">
+         <div >
+            <h2>Address</h2>
+            <br>
+            <p>Chandigarh, India - 160014</p>
+            <br>
+            <br>
+            <a href="#">View Google Map</a>
+         </div>
+         <div>
+            <h2>Book a Table</h2>
+            <br>
+            <p>Chandigarh, India - 160014</p>
+            <br>
+            <br>
+            <a href="#">Make a Call</a>
+         </div>
+         <div >
+            <h2>Opening Hours</h2>
+            <br>
+            <p>Monday-Friday: 8am-4pm</p>
+            <p>Saturday: 9am-5pm</p>
+            <br>
+            <a href="#">Make a Call</a>
+         </div>
+         <div>
+         <h2>Newsletter</h2>
+         <br>
+         <p><input type="email" name="email" value="Enter Your Email"></p>
+         <br>
+         <br>
+         <a href="#">Subcribe Now</a>
+      </div>
+    </div>
+    </div> 
+    <br>
+    <div class="copyright">
+        <p>Copyright @2024 Blissfull Bites</p>
+    </div>
+    </footer>
+        <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx8zmh-MNX7myoyrOFaSA_gE-U-Hk9eXsg2tE7yiBRajo9EwHehY9BBFJlvHzmCeC-EtQ/exec';
+      
+        // Select the forms individually
+        const bookingForm = document.forms['booking'];
+        const messageForm = document.forms['Message-us'];
+      
+        // Create a function to handle form submission
+        const handleSubmit = (form) => {
+          form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then(response => {
+                alert("Thank you! Your form is submitted successfully.");
+                window.location.reload();
+              })
+              .catch(error => console.error('Error!', error.message));
+          });
+        };
+      
+        // Apply the submission function to both forms
+        if (bookingForm) handleSubmit(bookingForm);
+        if (messageForm) handleSubmit(messageForm);
+      </script>
+      
+
+
+</body>
+</html>
